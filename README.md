@@ -13,7 +13,8 @@ https://data.cityofchicago.org/Health-Human-Services/Food-Inspections/4ijn-s7e5
   * Dave Freiberg
   * Jesus Viloria Paolini
  
-- Linear regression on a ten period of restaurants in chicgo by location to see if there are patterns in predicting their food safety (RISK) and results of their inspection.   
+- Linear regression on a ten period of restaurants in chicgo by location to see if there are patterns in predicting their food safety (RISK) and results of their inspection.
+AND, if we have more time . . . .    
 - Binary classification off of the "Results" column which is what the food inspector experienced when attempting to inspect a restaurant on a given date. 
 
 # ORDER OF OPERATIONS
