@@ -18,13 +18,13 @@ https://data.cityofchicago.org/Health-Human-Services/Food-Inspections/4ijn-s7e5
 
 # ORDER OF OPERATIONS
 ## Data Retrieval and Preprocessing:
-* Retrieve the data from SQL or Spark, depending on your chosen data source.
+* Retrieve the CSV, enrich it if possible from the Chicago site, and store in SQL.
 * Place data into an AWS s3 Bucket for use (Github won't allow large file sizes)
 * Clean the data by handling missing values and outliers.
-* Normalize and standardize the data to ensure all features are on a similar scale.
+* Normalize and standardize the data to ensure all features are on a similar scale. 
 
 ## Data Model Implementation:
-* Choose an appropriate machine learning algorithm for your task (classification or regression).
+* We will be doing both classification or regression).
 * Split the data into training and testing sets.
 * Initialize, train, and evaluate the model using the training and testing data.
 * Measure the model's classification accuracy (for classification) or R-squared (for regression) to ensure meaningful predictive power.
