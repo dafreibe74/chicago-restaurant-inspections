@@ -22,6 +22,7 @@ https://data.cityofchicago.org/Health-Human-Services/Food-Inspections/4ijn-s7e5
 # ORDER OF OPERATIONS
 ## Data Retrieval and Preprocessing:
 * Retrieve the data from SQL or Spark, depending on your chosen data source.
+* Place data into an AWS s3 Bucket for use (Github won't allow large file sizes)
 * Clean the data by handling missing values and outliers.
 * Normalize and standardize the data to ensure all features are on a similar scale.
 
