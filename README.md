@@ -13,11 +13,8 @@ https://data.cityofchicago.org/Health-Human-Services/Food-Inspections/4ijn-s7e5
   * Dave Freiberg
   * Jesus Viloria Paolini
  
-    
-- Linear regression on a ten period of restaurants in chicgo by location to see if there are patterns in predicting their food safety.
-- Regression model on the risk and contributing fields to try and predict the risk level (1 or 2 being the level you'll get sick by the food) of a new restaurant.  
-- Neural - binary classification off of the "Results" column which is what the food inspector experienced when attempting to inspect a restaurant on a given date. 
-
+- Linear regression on a ten period of restaurants in chicgo by location to see if there are patterns in predicting their food safety (RISK) and results of their inspection.   
+- Binary classification off of the "Results" column which is what the food inspector experienced when attempting to inspect a restaurant on a given date. 
 
 # ORDER OF OPERATIONS
 ## Data Retrieval and Preprocessing:
