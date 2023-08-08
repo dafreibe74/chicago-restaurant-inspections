@@ -5,6 +5,7 @@
 https://www.kaggle.com/datasets/chicago/chicago-food-inspections?resource=download
 
 And the source of this data can be found at the City of Chicago
+https://data.cityofchicago.org/Health-Human-Services/Food-Inspections/4ijn-s7e5
 
 * Our Group Members
   * Noah Bazis
