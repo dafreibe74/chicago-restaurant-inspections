@@ -1,0 +1,113 @@
+/* Reset default margin and padding */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to bottom, #acacac, #380338);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Background image styles */
+.background-image {
+    background-size: cover;
+    background-position: center;
+    color: rgb(17, 16, 16);
+}
+
+/* Heading styles */
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Button styles */
+button {
+    background-color: #8e54c8;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Adjust the width of the map container */
+#map-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 20px); /* Subtract margin-top from the full viewport height */
+    width: 90%; /* Make the map containers coverage */
+}
+
+/* Adjust the iframe width for better centering */
+#map-iframe {
+    width: 80%; /* Adjust this value to increase or decrease the width of the map */
+    max-width: 2000px; /* Adjust this value as needed */
+}
+
+.prediction-text {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(240, 244, 9); /* Dark purple color */
+    border: 5px solid white; /* Thick white border */
+    border-radius: 15px; /* Rounded corners */
+    padding: 10px; /* Some padding to give space between the text and the border */
+}
+
+/* Label, select, and button styles */
+.form label,
+.form button {
+    color: white;
+    font-size: 18px;
+    margin: 5px;
+}
+
+select {
+    font-size: 18px;
+    margin: 20px;
+}
+
+hr {
+    margin: 20px 0;
+    width: 300%;
+}
+
+/* Dropdown class */
+.dd {
+    color: black;
+}
+
+/* Legend styles */
+.legend {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.legend i {
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    margin-right: 8px;
+    width: 10px;
+}
+
+.legend .fail { background-color: rgba(255, 0, 0, 0.8); }
+.legend .risk { background-color: rgba(0, 0, 255, 0.8); }
