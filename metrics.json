@@ -1,0 +1,1 @@
+{"confusion_matrix": [[1506, 40, 0], [427, 37, 0], [24, 0, 0]], "accuracy": 0.7586037364798427, "custom_labels": ["Risk 1 (High)", "Risk 2 (Medium)", "Risk 3 (Low)"]}
