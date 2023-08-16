@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chicago Neighborhood Food Safety Predictor</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body class="background-image">
+
+    <h1>Chicago Neighborhood Food Safety Predictor</h1>
+
+    <form class='form' method="POST" action="/send" name="mlform">
+        <label for="Zip">Select Zip:</label>
+        <select id="zipDropdown" name="Zip"></select>
+        <button type="submit" name="action" value='submit'>Check Safety</button>
+    </form>
+
+    {% if prediction %}
+    <p class="prediction-text">Prediction: {{ prediction }}</p>
+    {% endif %}
+
+    <h1>Top Repeat Fails and Risk By Neighborhood</h1>
+
+    <select id="neighborhoodDropdown"></select>
+    <div id="map-content">
+        <div id="map" style="width: 100%; height: 90%;"></div>
+    </div>
+
+    <script src="../static/js/map.js"></script>
+</body>
+</html>
