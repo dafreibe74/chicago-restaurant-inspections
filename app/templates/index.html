@@ -14,6 +14,15 @@
     <form class='form' method="POST" action="/send" name="mlform">
         <label for="Zip">Select Zip:</label>
         <select id="zipDropdown" name="Zip"></select>
+        <label for="Result">Select Inspection Result:</label>
+        <select id="riskDropdown" name="result">
+            <option value=0>Fail</option>
+            <option value=1>No Entry</option>
+            <option value=2>Not Ready</option>
+            <option value=3>Pass</option>
+            <option value=4>Pass w/ Conditions</option>
+            
+        </select>
         <button type="submit" name="action" value='submit'>Check Safety</button>
     </form>
 
